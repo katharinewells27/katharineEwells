@@ -1,0 +1,66 @@
+{
+  "status": "original_files_unavailable_for_binary_export",
+  "note": "File names were verified in the user's project library, but raw source bytes were not available to package. Nothing here is a generated or reconstructed map.",
+  "projects": {
+    "opportunity-index": {
+      "title": "Live and Learn Opportunity Index",
+      "items": [
+        [
+          "Symposium Poster-LLResearch Summer 2026(2).pptx",
+          "Research poster \u00b7 original PowerPoint",
+          "Katharine Wells, Hays Stritikus, Savannah Hollen, Tom Shields, and Kyle Redican",
+          "Poster includes the original school-attendance-zone maps and research figures."
+        ]
+      ],
+      "source_note": "Original maps should be extracted from the authored poster or the GIS exports, not redrawn from a written description."
+    },
+    "mls-accuracy": {
+      "title": "MLS School-Assignment Accuracy",
+      "items": [
+        [
+          "MLS Symposium Poster (1)(2).pptx",
+          "Research poster \u00b7 original PowerPoint",
+          "Katharine Wells, Hays Stritikus, Savannah Hollen, Tom Shields, and Kyle Redican",
+          "Contains the original county comparisons and research visuals."
+        ],
+        [
+          "Our SEDAAG Presentation (1).pptx",
+          "Conference presentation \u00b7 original PowerPoint",
+          "Katharine Wells and Kyle Redican",
+          "Source slide deck with original analysis and figures."
+        ],
+        [
+          "SEDAAG_MLS_Presentation_Draft.pdf",
+          "Presentation draft \u00b7 PDF",
+          "Katharine Wells and Kyle Redican",
+          "Draft slide version; not a substitute for a final conference presentation."
+        ]
+      ],
+      "source_note": "Any map showing mismatched MLS school assignments must come from a research-team-approved original image or slide; property-level locations require a public-release review."
+    },
+    "rezoning": {
+      "title": "Richmond School Rezoning Capstone",
+      "items": [
+        [
+          "SOC401_ Capstone Methods Section.docx",
+          "Working methodology draft \u00b7 Word",
+          "Katharine Wells",
+          "Research proposal; not completed empirical findings or a published paper."
+        ]
+      ],
+      "source_note": "This project is in progress. No coded findings, interview results, or Richmond maps are presented as completed research."
+    },
+    "metro-systems": {
+      "title": "Global Metro Systems Wikipedia Corpus",
+      "items": [
+        [
+          "DSST389_ Project Proposal.docx",
+          "Project proposal \u00b7 Word",
+          "Katharine Wells",
+          "Working research design; not published findings."
+        ]
+      ],
+      "source_note": "Corpus charts and original maps will only be added after verifying their output files and the analysis that produced them."
+    }
+  }
+}

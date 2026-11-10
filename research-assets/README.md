@@ -1,0 +1,1 @@
+Original GIS maps, research poster presentations, photos, and authored figure excerpts. The complete white-paper draft and full metro-system API cache are excluded from public hosting. Ensure appropriate coauthor/photo/data permissions before publishing.

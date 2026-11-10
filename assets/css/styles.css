@@ -112,3 +112,28 @@ body{background:var(--paper)}
 .nav a:hover,.nav a[aria-current=page]{color:#174f84}
 :focus-visible{outline-color:#2474b8}
 @media(max-width:690px){.viz-legend{grid-template-columns:1fr}.viz-flow{grid-template-columns:1fr}.viz-origin{min-height:100px}.viz-branches{gap:8px}.viz-branch{grid-template-columns:1fr;gap:5px}.ratio-grid{gap:7px}}
+
+.marquee-grid:before{content:"RESEARCH AT A GLANCE";grid-column:1/-1;padding:22px 0 0;color:#315f8a;font:10px/1.5 var(--mono);letter-spacing:.13em}
+.stat{padding-top:22px;padding-bottom:32px}
+.stat strong{color:#174f84;font-size:clamp(30px,3vw,38px)}
+.stat p{max-width:190px}
+.project-card{border-radius:16px;box-shadow:0 10px 28px rgba(18,63,110,.045)}
+.project-card:hover{box-shadow:0 20px 42px rgba(18,63,110,.12)}
+.project-art{height:224px}
+.project-body{padding:29px 30px}
+.project-topline{color:#356b9d;letter-spacing:.1em}
+.project-link{display:inline-flex;align-items:center;gap:7px;color:#174f84}
+.project-link:after{content:"";width:20px;height:1px;background:currentColor;transition:width .2s}
+.project-card:hover .project-link:after{width:32px}
+.band-grid{padding-top:94px;padding-bottom:94px}
+.contact{position:relative;overflow:hidden;background:linear-gradient(120deg,#123f6e,#1d5e94);border:0;color:#fff}
+.contact:after{content:"";position:absolute;width:420px;height:420px;right:-170px;top:-210px;border:1px solid rgba(255,255,255,.14);border-radius:50%;box-shadow:0 0 0 32px rgba(255,255,255,.035),0 0 0 64px rgba(255,255,255,.025);pointer-events:none}
+.contact-grid{position:relative;z-index:1}
+.contact .section-kicker{color:#c5def5}
+.contact h2{color:#fff}
+.contact p{color:#d8e8f7}
+.contact .btn{background:#fff;border-color:#fff;color:#123f6e}
+.contact .btn:hover{background:#e8f3fc;border-color:#e8f3fc}
+.contact .btn-secondary{background:transparent;border-color:#9ebcd7;color:#fff}
+.contact .btn-secondary:hover{background:rgba(255,255,255,.12)}
+@media(max-width:690px){.marquee-grid:before{padding-top:17px}.stat{padding:17px 15px 22px}.stat:first-child{padding-left:15px}.project-art{height:198px}.project-body{padding:24px}.band-grid{padding-top:68px;padding-bottom:68px}.contact:after{width:300px;height:300px;right:-180px;top:-155px}}

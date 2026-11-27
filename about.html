@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-page="About">Loading...</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<header id="site-header" class="site-header"></header>
+
+<main>
+
+  <section class="page-head">
+    <p class="page-eyebrow">Section · 03</p>
+    <h1 class="page-title">About</h1>
+  </section>
+
+  <section class="about-page">
+    <div class="about-page-grid">
+      <div class="about-photo">
+        <img data-bind="headshot" alt="" />
+      </div>
+      <div class="about-prose" data-bind="longBio"></div>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="section-head">
+      <span class="section-num">i</span>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <ul class="cv-list" data-bind="experience"></ul>
+  </section>
+
+  <section class="cv-section">
+    <div class="section-head">
+      <span class="section-num">ii</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <ul class="cv-list" data-bind="education"></ul>
+    <p class="about-feature-link"><a class="link-primary" href="https://www.umbra.org/feature-student/katharine-wells/" target="_blank" rel="noopener noreferrer">Read my Umbra Institute student feature ↗</a></p>
+  </section>
+
+  <section class="cv-section">
+    <div class="section-head">
+      <span class="section-num">iii</span>
+      <h2 class="section-title">Toolkit</h2>
+    </div>
+    <div class="skill-groups" data-bind="skillGroups"></div>
+  </section>
+
+  <section class="cv-section" id="recognition">
+    <div class="section-head">
+      <span class="section-num">iv</span>
+      <h2 class="section-title">Recognition &amp; Résumé</h2>
+    </div>
+    <div class="recognition-about">
+      <img src="research-assets/photos/sedaag-poster-award.jpg" alt="SEDAAG Best Undergraduate Poster award in Human Geography presented to Katharine Wells of the University of Richmond" loading="lazy">
+      <div>
+        <p class="recognition-label">SEDAAG · HUMAN GEOGRAPHY</p>
+        <h2>Best Undergraduate Poster</h2>
+        <p>Recognized for undergraduate poster research. The award included a $250 stipend.</p>
+        <div class="resume-links"><a class="link-primary" href="resume.html">View print-ready web résumé ↗</a><a class="link-primary" href="assets/resume/Katharine_Wells_Resume.docx" download>Download original supplied résumé (Word) ↓</a></div>
+      </div>
+    </div>
+    <ul class="recognition-list">
+      <li><div><strong>Second Place · Best Geographical Analysis</strong><span>VAMLIS GeoCon 2026 · Live and Learn Opportunity Index</span></div><img src="research-assets/photos/geocon-award.jpg" alt="Research colleagues holding the VAMLIS GeoCon second-place award" loading="lazy"></li>
+      <li><div><strong>2027 AERA Annual Meeting · accepted presentation</strong><span>Learn and Live Opportunity Index: Mapping Housing &amp; Education Inequality Across Metropolitan Richmond, Virginia. Accepted November 6, 2026 for the April 14–18 meeting in Toronto; not yet presented or published.</span></div></li>
+    </ul>
+    <div class="conference-photos" aria-label="VAMLIS GeoCon research presentation photos">
+      <figure><img src="research-assets/photos/geocon-mls-poster.jpg" alt="Katharine Wells standing beside the MLS school-assignment poster at VAMLIS GeoCon" loading="lazy"><figcaption>Presenting the MLS school-assignment work · VAMLIS GeoCon</figcaption></figure>
+      <figure><img src="research-assets/photos/geocon-award.jpg" alt="Research colleagues holding the VAMLIS GeoCon award" loading="lazy"><figcaption>Second Place · Best Geographical Analysis</figcaption></figure>
+      <figure><img src="research-assets/photos/geocon-research-discussion.jpg" alt="Research team discussing findings with conference attendees" loading="lazy"><figcaption>Conference research discussion</figcaption></figure>
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+
+<script src="config.js"></script>
+<script src="components.js"></script>
+</body>
+</html>

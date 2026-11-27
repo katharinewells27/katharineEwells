@@ -1,25 +1,27 @@
-# Katharine Wells · Research portfolio
+# Katharine Wells · Portfolio
 
-The static portfolio is available directly from the repository root at [`index.html`](index.html). The complete package can also be downloaded as [`Katharine-Wells-Portfolio-GitHub-Original-Resume-V6.zip`](Katharine-Wells-Portfolio-GitHub-Original-Resume-V6.zip).
+A static, multi-page portfolio based on the supplied GIS Portfolio Template. The home, work, about, and contact pages share the template's `config.js` content and reusable `components.js`; individual case studies use the same visual system.
 
-The site pairs a consistent blue-and-white palette with clearer page-title and section-heading hierarchy. Accessible case-study infographics visualize only information documented in the supplied research: index indicator groups, the approximate MLS discrepancy rate, and the metro-corpus collection scope. They do not invent scores or findings.
+## Pages
 
-The original editorial homepage and four research case studies are preserved, alongside the **Selected Presentations & Recognition** section with original GeoCon 2026 photographs, the research award, and the accepted 2027 AERA paper.
+- `index.html` — introduction, selected projects, SEDAAG recognition, and résumé link
+- `projects.html` — project list and verified research-report/poster links
+- `about.html` — education, experience, skills, awards, and résumé downloads
+- `contact.html` — email and LinkedIn
+- `project-*.html` — case studies, coursework maps, and SOC 379 video
 
-The original user-supplied poster files, maps, selected figures from a working white paper, and the user-selected original résumé are included. The full white-paper draft and full metro corpus are not published. Files derived from the working white paper retain their status as draft research figures.
+## Content and Assets
 
-## Publish with GitHub Pages
+Update the shared profile, education, experience, skills, and featured project records in `config.js`. `resume.html` is a print-styled web résumé; `assets/resume/Katharine_Wells_Resume.docx` preserves the supplied Word file. The supplied headshot, exact poster submissions, SEDAAG award photo, and original course maps are linked from the relevant pages.
 
-1. Upload the repository contents, including `index.html` and the `assets`, `projects`, and `research-assets` folders, to your GitHub Pages repository. The ZIP is an optional download for sharing or offline use.
-2. Repository Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
-3. Visit the Pages link after deployment completes.
+The Live and Learn 2.0 report-release link is included in the LLOI project and research-materials list. The MLS project links the original user-supplied SEDAAG 2026 presentation and poster files. Figures labeled as working-paper drafts are excerpts, not a final report; the complete draft is not hosted here. Research posters are labeled as original files and linked directly rather than presented as redesigned or verified final publications.
 
-No source maps have been recreated or generated. This repository is a static HTML/CSS/JS website; no build tools are required.
+The SOC 379 medical-racism video is embedded from the user's YouTube link. The prior Umbra student feature and geography StoryMap links are retained. No global-capitalism essay is listed because no essay file was supplied.
 
-## Public-release check
+## Preview Locally
 
-Confirm that each coauthored poster, conference photo, and résumé is approved for public distribution. Research slides may contain private or not-yet-released data; only the attached original posters are included here.
+Open `index.html` in a browser. The site uses static HTML, CSS, and JavaScript and does not require a build step.
 
-## Résumé used in this release
+## GitHub Pages
 
-`assets/resume/KatharineWellsResume2026-27.docx` is a byte-for-byte copy of the user-provided `KatharineWellsResume2026-27(1).docx`. The companion PDF was converted directly from that source; no wording edits were made. Homepage résumé links now point only to these files.
+The repository is a public source repository. A public Pages website must also be enabled under **Settings → Pages**. Select **Deploy from a branch**, choose the intended publishing branch and `/(root)`, and save. Pages will publish the static files once GitHub accepts the configuration and deployment completes.

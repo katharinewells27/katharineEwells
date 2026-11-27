@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">School rezoning sociology capstone</title>
+  <desc id="description">A typographic title card for an in-progress sociology capstone.</desc>
+  <rect width="1200" height="900" fill="#ffffff"/>
+  <path d="M92 150h1016M92 750h1016" stroke="#173f70" stroke-width="3"/>
+  <text x="100" y="220" fill="#173f70" font-family="monospace" font-size="24" letter-spacing="5">SOCIOLOGY · CAPSTONE IN PROGRESS</text>
+  <text x="100" y="410" fill="#10243e" font-family="Georgia, serif" font-size="70">Whose voices</text>
+  <text x="100" y="500" fill="#10243e" font-family="Georgia, serif" font-size="70">shape school</text>
+  <text x="100" y="590" fill="#10243e" font-family="Georgia, serif" font-size="70">rezoning?</text>
+  <text x="100" y="680" fill="#344b67" font-family="monospace" font-size="20" letter-spacing="3">RESEARCH QUESTIONS · NO FINDINGS YET</text>
+</svg>

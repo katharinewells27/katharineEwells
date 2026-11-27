@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">Medical racism coursework</title>
+  <desc id="description">A typographic title card for a SOC 379 course video about medical racism.</desc>
+  <rect width="1200" height="900" fill="#f3f6fa"/>
+  <path d="M92 150h1016M92 750h1016" stroke="#173f70" stroke-width="3"/>
+  <circle cx="1020" cy="320" r="118" fill="none" stroke="#173f70" stroke-width="3"/>
+  <circle cx="1020" cy="320" r="74" fill="none" stroke="#10243e" stroke-width="2"/>
+  <text x="100" y="220" fill="#173f70" font-family="monospace" font-size="24" letter-spacing="5">SOC 379 · COURSE VIDEO</text>
+  <text x="100" y="430" fill="#10243e" font-family="Georgia, serif" font-size="92">Medical</text>
+  <text x="100" y="540" fill="#10243e" font-family="Georgia, serif" font-size="92">racism</text>
+  <text x="100" y="680" fill="#344b67" font-family="monospace" font-size="20" letter-spacing="3">A STUDENT PROJECT</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">Live and Learn Opportunity Index poster</title>
+  <desc id="description">A title card identifying the original Live and Learn Opportunity Index poster.</desc>
+  <rect width="1200" height="900" fill="#ffffff"/>
+  <path d="M92 150h1016M92 750h1016" stroke="#173f70" stroke-width="3"/>
+  <text x="100" y="220" fill="#173f70" font-family="monospace" font-size="24" letter-spacing="5">LIVE AND LEARN · RESEARCH POSTER</text>
+  <text x="100" y="405" fill="#10243e" font-family="Georgia, serif" font-size="66">Housing &amp;</text>
+  <text x="100" y="490" fill="#10243e" font-family="Georgia, serif" font-size="66">educational</text>
+  <text x="100" y="575" fill="#10243e" font-family="Georgia, serif" font-size="66">opportunity</text>
+  <text x="100" y="680" fill="#344b67" font-family="monospace" font-size="20" letter-spacing="3">ORIGINAL POSTER FILE AVAILABLE</text>
+</svg>

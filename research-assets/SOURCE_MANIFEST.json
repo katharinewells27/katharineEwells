@@ -1,66 +1,55 @@
 {
-  "status": "original_files_unavailable_for_binary_export",
-  "note": "File names were verified in the user's project library, but raw source bytes were not available to package. Nothing here is a generated or reconstructed map.",
+  "status": "selected_user_provided_files_included",
+  "note": "The submitted poster files listed below are copies of user-provided attachments. Site cover graphics identify documents but are not reproductions or redesigned versions of the posters.",
   "projects": {
     "opportunity-index": {
       "title": "Live and Learn Opportunity Index",
       "items": [
-        [
-          "Symposium Poster-LLResearch Summer 2026(2).pptx",
-          "Research poster \u00b7 original PowerPoint",
-          "Katharine Wells, Hays Stritikus, Savannah Hollen, Tom Shields, and Kyle Redican",
-          "Poster includes the original school-attendance-zone maps and research figures."
-        ]
+        {
+          "file": "posters/LLOI-VAMLIS-Poster-Submission.pdf",
+          "type": "User-provided research poster PDF",
+          "status": "Original file"
+        }
       ],
-      "source_note": "Original maps should be extracted from the authored poster or the GIS exports, not redrawn from a written description."
+      "report_release_url": "https://spcs.richmond.edu/updates/article/-/25362/live-and-learn-2.0-report-release.html",
+      "source_note": "Selected figures in white-paper-figures/ are excerpts from a working draft. The complete draft is not hosted here."
     },
     "mls-accuracy": {
       "title": "MLS School-Assignment Accuracy",
       "items": [
-        [
-          "MLS Symposium Poster (1)(2).pptx",
-          "Research poster \u00b7 original PowerPoint",
-          "Katharine Wells, Hays Stritikus, Savannah Hollen, Tom Shields, and Kyle Redican",
-          "Contains the original county comparisons and research visuals."
-        ],
-        [
-          "Our SEDAAG Presentation (1).pptx",
-          "Conference presentation \u00b7 original PowerPoint",
-          "Katharine Wells and Kyle Redican",
-          "Source slide deck with original analysis and figures."
-        ],
-        [
-          "SEDAAG_MLS_Presentation_Draft.pdf",
-          "Presentation draft \u00b7 PDF",
-          "Katharine Wells and Kyle Redican",
-          "Draft slide version; not a substitute for a final conference presentation."
-        ]
+        {
+          "file": "posters/MLS-VAMLIS-Poster-Submission.pptx",
+          "type": "User-provided research poster PowerPoint",
+          "status": "Original file"
+        },
+        {
+          "file": "presentations/SEDAAG-Wells-Redican-Presentation.pptx",
+          "type": "User-provided SEDAAG 2026 presentation",
+          "status": "Original file"
+        }
       ],
-      "source_note": "Any map showing mismatched MLS school assignments must come from a research-team-approved original image or slide; property-level locations require a public-release review."
+      "source_note": "The poster and SEDAAG presentation are linked as supplied; the site uses a separate title cover rather than presenting the poster as a polished PDF export."
     },
     "rezoning": {
       "title": "Richmond School Rezoning Capstone",
-      "items": [
-        [
-          "SOC401_ Capstone Methods Section.docx",
-          "Working methodology draft \u00b7 Word",
-          "Katharine Wells",
-          "Research proposal; not completed empirical findings or a published paper."
-        ]
-      ],
-      "source_note": "This project is in progress. No coded findings, interview results, or Richmond maps are presented as completed research."
+      "source_note": "Study design in progress. No completed findings or interview results are presented."
     },
     "metro-systems": {
       "title": "Global Metro Systems Wikipedia Corpus",
+      "source_note": "Corpus collection is documented in data/metro-corpus-manifest.md. Some manually curated metadata sources remain undocumented; those fields are not presented as verified findings."
+    },
+    "coursework-maps": {
+      "title": "Selected GIS Coursework Maps",
       "items": [
-        [
-          "DSST389_ Project Proposal.docx",
-          "Project proposal \u00b7 Word",
-          "Katharine Wells",
-          "Working research design; not published findings."
-        ]
+        "maps/RVA-Waste-Dumping-Sites-Katharine-Wells.png",
+        "maps/DC-Business-Sustainability-Median-Gross-Rent-Katharine-Wells.png"
       ],
-      "source_note": "Corpus charts and original maps will only be added after verifying their output files and the analysis that produced them."
+      "source_note": "Original course maps are shown as supplied."
     }
+  },
+  "profile_and_recognition": {
+    "headshot": "../assets/img/katharine-wells-headshot.jpg",
+    "sedaag_award_photo": "photos/sedaag-poster-award.jpg",
+    "sedaag_award": "Best Undergraduate Poster, Human Geography; $250 stipend reported by the user."
   }
 }

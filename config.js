@@ -8,7 +8,7 @@ const CONFIG = {
   website: "",
   headshot: "assets/img/katharine-wells-headshot.jpg",
 
-  shortBio: `I am pursuing a B.S. in Sociology at the University of Richmond, with a minor in Data Science and Statistics. I am passionate about social communities, philanthropy, and public service, and study how history, institutions, and the built environment shape access to housing and education. I use spatial analysis and data to make those patterns visible. Through my collaborative Live and Learn work, I have become especially interested in urban planning and in turning research into practical policy and action that communities and decision-makers can use.`,
+  shortBio: `My name is Katharine Wells, I am currently pursuing a B.S. in Sociology at the University of Richmond, with a minor in Data Science and Statistics. I am passionate about social communities, philanthropy, and public service. I study how history, institutions, and the built and social environment shape everyday communities. I am especially interested in pursuing further education in urban planning and in turning research into practical policy and action that communities, local municipalities, and active decision-makers can use to address an increasingly complex, international developing world.`,
 
   longBio: `I am completing a B.S. in Sociology at the University of Richmond, with a minor in Data Science and Statistics, and expect to graduate in May 2027. My studies have led me to ask how institutions, history, and the built environment shape people's access to housing, education, and public resources.
 

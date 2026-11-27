@@ -126,7 +126,7 @@ const CONFIG = {
       year: "Coursework",
       type: "SOC 379 · Video",
       thumbnail: "images/projects/medical-racism.svg",
-      blurb: "A class video exploring medical racism, created for the SOC 379 course.",
+      blurb: "A public-sociology video examining Virginia's history of medical racism and eugenics through archival sources and objects.",
       tags: ["Sociology", "Coursework", "Video"],
       detailPage: "project-medical-racism.html",
       featured: true
